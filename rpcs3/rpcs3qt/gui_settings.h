@@ -193,7 +193,7 @@ namespace gui
 	const gui_save m_currentConfig     = gui_save(meta, "currentConfig",     Settings);
 	const gui_save m_currentStylesheet = gui_save(meta, "currentStylesheet", Default);
 	const gui_save m_saveNotes         = gui_save(meta, "saveNotes",         QVariantMap());
-	const gui_save m_showDebugTab      = gui_save(meta, "showDebugTab",      false);
+	const gui_save m_showDebugTab      = gui_save(meta, "showDebugTab",      true);
 	const gui_save m_enableUIColors    = gui_save(meta, "enableUIColors",    false);
 	const gui_save m_richPresence      = gui_save(meta, "useRichPresence",   true);
 	const gui_save m_discordState      = gui_save(meta, "discordState",      "");
